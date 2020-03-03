@@ -1,2 +1,38 @@
 
 body{background-color: antiquewhite;}
+
+.text{font-style: oblique;
+width: 270;
+position: relative;
+bottom: 10;
+   float: left; }
+
+/*#constitutionimg{
+    opacity: 1; 
+    filter: 1;
+    position: relative
+    left: -270px;}
+*/
+.run-animation{
+    position: relative;
+    margin-left: 10px;
+    animation-name: scrollin;
+    animation-duration: 10s;
+}
+
+@keyframes scrollin {
+    0% {
+        background-image: url(constitution.jfif);
+        left: -275px;
+        top: 0px;
+    }
+
+    100% {
+        margin-left: 10px;
+        background-image: url(constitution.jfif);
+        left: 0px;
+        top: 0px
+    }
+
+    body{background-color: antiquewhite;}
+

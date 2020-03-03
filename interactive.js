@@ -18,8 +18,11 @@ d3.select("#george")
             .text("George Washington was also a revered General for the the American Colonists during the War. This image depicts Washington crossing the Delaware River to attack Enemy soldiers during the winter.")
 })
 
-d3.select("#constitutionimg")
-    .on("keydown", )
+/*
+var animation = d3.select("#constitutionimg")
+//animation.classed("run-animation", false);
+
+
 
 
 
